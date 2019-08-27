@@ -1,0 +1,9 @@
+{% extends 'car_base.html' %}
+{% block title %}Home{% endblock title %}
+{% block style %}
+	style='background: url(https://www.setaswall.com/wp-content/uploads/2017/12/Black-Ferrari-Car-Wallpaper-14-3840x2400.jpg); background-size:100%;'
+{% endblock style %}
+
+{% block content %}
+<a href="{% url 'car-list' %}" class='btn btn-secondary btn-lg btn-block'><h1>Welcome to our agency!</h1></a>
+{% endblock content %}
